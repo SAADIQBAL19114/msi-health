@@ -4,24 +4,14 @@ import { Link } from "react-router-dom";
 const Button = ({
   children,
   fullWidth,
-  pathname,
   href,
   onClick,
   styles,
   icon,
   iconStyle,
 }) => {
-  // const {
-  //   // icon,
-  //   children,
-  //   fullWidth,
-  //   pathname,
-  //   href,
-  //   onClick,
-  // } = props;
-
-  const btnBorder = `${href?.length ? `border border-white` : ``}`;
-  const btn = `cursor-pointer rounded-lg bg-primary-100 p-5 font-bold text-white ${btnBorder}`;
+  const btnBorder = `${href?.length ? ` inline-flex border border-white` : ``}`;
+  const btn = `cursor-pointer rounded-lg p-5 font-bold text-white justify-start flex items-center bg-primary-100 ${btnBorder}`;
 
   const btnProps = {
     className: `${fullWidth ? "w-full" : ""} ${btn} ${styles}`,
@@ -36,12 +26,13 @@ const Button = ({
     buttonElement,
     linkProps,
     <>
-      {icon && <span className={`${iconStyle}`}>
-        {React.cloneElement(icon, { color: "white" })}
-      </span>}
+      {icon && (
+        <span className={`${iconStyle} h-auto w-auto pr-4`}>
+          {React.cloneElement(icon)}
+        </span>
+      )}
       {children}
     </>,
-
   );
 };
 export default Button;
