@@ -6,7 +6,7 @@ import Facebook from "./icons/regular/Facebook";
 function App() {
   return (
     <>
-      <div className="bg-primary">
+      <div className="bg-black">
         <FooterSocialLinks img={<Facebook/>} />
       </div>
     </>

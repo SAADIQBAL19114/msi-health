@@ -9,7 +9,7 @@ module.exports = {
         grayBox: "#D9D9D9",
       },
       maxWidth: {
-        container: "1156px",
+        container: "1180px",
       },
       padding: {
         7.5: "30px",
