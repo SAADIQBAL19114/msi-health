@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         primary: "#00A0AA",
         secondary: "#FFC567",
+        grayBox: "#D9D9D9",
       },
       maxWidth: {
         container: "1156px",
@@ -18,6 +19,12 @@ module.exports = {
       },
       inset: {
         38: "9.5rem",
+      },
+      spacing: {
+        512: "512px",
+      },
+      fontSize: {
+        "3.5xl": "32px",
       },
     },
   },
