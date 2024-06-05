@@ -1,16 +1,8 @@
 import "./App.css";
-
-import FooterSocialLinks from "./components/FooterSocialLInks";
-import Facebook from "./icons/regular/Facebook";
+import Container from "./components/Container";
 
 function App() {
-  return (
-    <>
-      <div className="bg-black">
-        <FooterSocialLinks img={<Facebook/>} />
-      </div>
-    </>
-  );
+  return <Container children={"Container outer"} />;
 }
 
 export default App;
