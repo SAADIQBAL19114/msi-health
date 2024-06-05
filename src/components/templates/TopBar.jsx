@@ -13,19 +13,21 @@ const TopBar = () => {
           <ListItem
             icon={<Location />}
             text={"90919 Madie run Apt. 790"}
-            textStyle={"text-white"}
+            textStyle={"text-white text-lg leading-6 text-white"}
           />
           <ListItem
             icon={<Email />}
             text={"medico@health.care"}
-            textStyle={"text-white"}
+            textStyle={"text-white text-lg leading-6 text-white"}
           />
         </div>
         <ListItem
           styles={"ml-auto"}
           icon={<Whatsapp />}
           text={"Connect on Whatsapp"}
-          textStyle={"text-white underline underline-offset-4"}
+          textStyle={
+            "text-white underline underline-offset-4 text-lg leading-6 text-white"
+          }
         />
       </Container>
     </div>

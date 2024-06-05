@@ -1,8 +1,16 @@
 import "./App.css";
-import Container from "./components/Container";
+import TopBar from "./components/templates/TopBar";
+import Header from "./components/templates/Header";
+import HeroSection from "./components/templates/HeroSection";
 
 function App() {
-  return <Container children={"Container outer"} />;
+  return (
+    <>
+      <TopBar />
+      <Header />
+      <HeroSection />
+    </>
+  );
 }
 
 export default App;

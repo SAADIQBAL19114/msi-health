@@ -11,7 +11,7 @@ const Button = ({
   iconStyle,
 }) => {
   const btnBorder = `${href?.length ? ` inline-flex border border-white` : ``}`;
-  const btn = `cursor-pointer rounded-lg p-5 font-bold text-white justify-start flex items-center bg-primary-100 ${btnBorder}`;
+  const btn = `cursor-pointer rounded-lg font-bold text-white justify-start flex items-center bg-primary ${btnBorder}`;
 
   const btnProps = {
     className: `${fullWidth ? "w-full" : ""} ${btn} ${styles}`,
