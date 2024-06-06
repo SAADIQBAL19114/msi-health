@@ -5,8 +5,8 @@ const TreatmentCard = ({ title, image, alt, profession, styles }) => {
     <div className={`relative`}>
       <img
         className={`rounded-lg`}
-        src={{image}}
-        alt={{alt}}
+        src={image}
+        alt={alt}
       />
       <div
         className={`bg-primary px-7.5 rounded-lg2 top-38 absolute -bottom-12 left-6 flex flex-col gap-y-1 pb-6 pt-4 text-white ${styles}`}
