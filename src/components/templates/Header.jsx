@@ -23,7 +23,7 @@ const Header = () => {
           </div>
           <div className="flex items-center justify-center gap-x-4">
             <nav className="flex items-center">
-              <ul className="flex flex-row gap-7 px-16 font-medium leading-7 ">
+              <ul className="flex flex-row gap-7 px-12 font-medium leading-7 ">
                 {links.map((item) => {
                   return (
                     <li key={item.key}>
@@ -40,7 +40,7 @@ const Header = () => {
               styles={"gap-x-2"}
               icon={<Phone />}
               text={"1005-346-272"}
-              textStyle={"text-xl font-bold leading-7 text-black font"}
+              textStyle={"text-xl font-bold leading-7 text-black"}
             />
             <Button
               styles={`bg-primary py-4 px-6 text-xl font-bold leading-7  `}

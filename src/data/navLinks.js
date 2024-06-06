@@ -11,7 +11,7 @@ export const links = [
   },
   {
     key: 2,
-    name: "Health Check",
+    name: "Health Checkup",
     to: "/",
   },
   {

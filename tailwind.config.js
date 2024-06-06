@@ -22,10 +22,17 @@ module.exports = {
       },
       spacing: {
         512: "512px",
+        45:"45%"
       },
       fontSize: {
         "3.5xl": "32px",
+        "7.5xl": "70px",
       },
+      lineHeight: {
+        90: "90px",
+        19: "19px"
+      },
+      
     },
   },
   plugins: [],

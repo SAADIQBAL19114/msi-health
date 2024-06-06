@@ -18,7 +18,5 @@ const TreatmentCard = ({ title, image, alt, profession, styles }) => {
   );
 };
 
-// <div className="px-7.5 lg:pb-7.5 absolute -bottom-12  left-10 flex flex-col items-start justify-center gap-y-1 rounded-lg bg-primary pb-5 pt-3 text-white sm:-bottom-9 lg:-bottom-14 lg:left-10 lg:pt-5">
-//         <p className="text-xs font-bold lg:text-sm">{title}</p>
 
 export default TreatmentCard;
