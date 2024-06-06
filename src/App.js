@@ -3,6 +3,9 @@ import TopBar from "./components/templates/TopBar";
 import Header from "./components/templates/Header";
 import HeroSection from "./components/templates/HeroSection";
 import Treatments from "./components/templates/Treatments";
+import Services from "./components/templates/Services";
+import AboutUs from "./components/templates/AboutUs";
+
 
 function App() {
   return (
@@ -10,8 +13,9 @@ function App() {
       <TopBar />
       <Header />
       <HeroSection />
-      <Treatments/>
-      
+      <Treatments />
+      <Services />
+      <AboutUs/>
     </>
   );
 }

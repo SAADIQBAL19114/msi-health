@@ -28,11 +28,13 @@ module.exports = {
         "3.5xl": "32px",
         "7.5xl": "70px",
         "4.5xl": "46px",
+        "4.25xl": "40px",
       },
       lineHeight: {
         90: "90px",
         19: "19px",
         62: "62px",
+        54: "54px",
       },
     },
   },

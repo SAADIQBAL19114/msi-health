@@ -3,7 +3,7 @@ import RightArrow from "../icons/regular/RightArrow";
 
 const ServiceCard = ({imagePath, alt, serviceTitle, serviceDescription}) => {
   return (
-    <div className="w-512 rounded-lg2 relative flex flex-row gap-x-11 bg-white p-7">
+    <div className="rounded-lg2 relative flex flex-row gap-x-11 bg-white p-7">
       <div className="w-full max-w-11">
         <img
           src={imagePath}
