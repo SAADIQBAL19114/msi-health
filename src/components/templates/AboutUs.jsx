@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "../Container";
-import Divider from "../Divider";
 import Button from "../Button";
 import { aboutUsFeature } from "../../data/aboutUsFeatures";
 import ListItem from "../ListItem";
@@ -9,7 +8,6 @@ import Tick from "../../icons/regular/Tick";
 const AboutUs = () => {
   return (
     <section className="bg-white">
-      <Divider Ypadding="" />
       <Container>
         <div className="px-20 pb-24 pt-28">
           <div className="flex flex-row justify-between gap-x-40">

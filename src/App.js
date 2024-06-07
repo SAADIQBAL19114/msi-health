@@ -5,6 +5,8 @@ import HeroSection from "./components/templates/HeroSection";
 import Treatments from "./components/templates/Treatments";
 import Services from "./components/templates/Services";
 import AboutUs from "./components/templates/AboutUs";
+import Checkup from "./components/templates/Checkup";
+import Testimonial from "./components/templates/Testimonial";
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <Treatments />
       <Services />
       <AboutUs/>
+      <Checkup/>
+      <Testimonial/>
     </>
   );
 }
