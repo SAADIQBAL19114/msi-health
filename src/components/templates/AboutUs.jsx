@@ -26,7 +26,7 @@ const AboutUs = () => {
                 {aboutUsFeature.map((data, index) => {
                   return (
                     <ListItem
-                      styles={"p-0"}
+                      styles={"!p-0"}
                       key={index}
                       icon={<Tick />}
                       text={data}

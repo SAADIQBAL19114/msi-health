@@ -10,5 +10,3 @@ const ListItem = ({ icon, iconStyle, text, textStyle, styles }) => {
 };
 
 export default ListItem;
-
-

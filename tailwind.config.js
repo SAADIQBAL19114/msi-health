@@ -35,6 +35,11 @@ module.exports = {
         19: "19px",
         62: "62px",
         54: "54px",
+        43.2:"43.2px"
+      },
+      backgroundImage: {
+        "next-slide": "url('../public/images/right-arrow.png')",
+        "prev-slide": "url('../public/images/left-arrow.png')",
       },
     },
   },
