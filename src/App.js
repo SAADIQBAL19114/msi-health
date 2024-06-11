@@ -7,8 +7,7 @@ import Services from "./components/templates/Services";
 import AboutUs from "./components/templates/AboutUs";
 import Checkup from "./components/templates/Checkup";
 import Testimonial from "./components/templates/Testimonial";
-
-
+import ContactUs from "./components/templates/ContactUs";
 
 function App() {
   return (
@@ -18,9 +17,10 @@ function App() {
       <HeroSection />
       <Treatments />
       <Services />
-      <AboutUs/>
-      <Checkup/>
-      <Testimonial/>
+      <AboutUs />
+      <Checkup />
+      <Testimonial />
+      <ContactUs />
     </>
   );
 }

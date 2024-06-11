@@ -14,8 +14,14 @@ module.exports = {
       padding: {
         7.5: "30px",
       },
+      borderWidth: {
+        1: "1px",
+      },
       borderRadius: {
         lg2: "10px",
+      },
+      rotate: {
+        225:"225deg"
       },
       inset: {
         38: "9.5rem",
@@ -35,7 +41,7 @@ module.exports = {
         19: "19px",
         62: "62px",
         54: "54px",
-        43.2:"43.2px"
+        43.2: "43.2px",
       },
       backgroundImage: {
         "next-slide": "url('../public/images/right-arrow.png')",
