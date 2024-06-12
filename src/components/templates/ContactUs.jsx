@@ -30,7 +30,7 @@ const ContactUs = () => {
       <Divider Ypadding="py-24" />
       <Container>
         <div className="flex flex-row items-center justify-center">
-          <div className="flex w-[38%] flex-col gap-y-8">
+          <div className="flex w-[40%] flex-col gap-y-8 pl-10">
             <div>
               <p className="text-primary text-xs font-bold">APPOINTMENT</p>
               <h3 className="text-4.25xl leading-54 font-bold">
@@ -58,7 +58,7 @@ const ContactUs = () => {
               />
             </div>
           </div>
-          <div className="flex w-[62%] justify-end pr-20 ">
+          <div className="flex w-[60%] justify-end pr-12 ">
             <div className="rounded-lg bg-white p-8  ">
               <form action="" className="flex w-[405px] flex-col gap-y-4">
                 <input
@@ -95,7 +95,7 @@ const ContactUs = () => {
                       </div>
                     </div>
                     <div
-                      className={` border-1 absolute w-full rounded-lg border-solid bg-white ${dropDown ? "flex flex-col" : "hidden"}`}
+                      className={` border-1 absolute w-full rounded-lg border-slate-200 bg-white ${dropDown ? "flex flex-col" : "hidden"}`}
                     >
                       <label
                         htmlFor="option1"

@@ -8,6 +8,7 @@ import AboutUs from "./components/templates/AboutUs";
 import Checkup from "./components/templates/Checkup";
 import Testimonial from "./components/templates/Testimonial";
 import ContactUs from "./components/templates/ContactUs";
+import Footer from "./components/templates/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Checkup />
       <Testimonial />
       <ContactUs />
+      <Footer/>
     </>
   );
 }
